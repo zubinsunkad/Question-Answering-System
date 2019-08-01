@@ -1,6 +1,10 @@
-# Word Sense Disambiguation with overlap words.
+# Question Answering system
 
-Word Sense Disambiguation is a NLP task where the correct meaning of a word in a context is found with the help of a given lexicon with word meanings. Here, the simplified lesk algorithm is implemented to disambiguate the word bank in the sentence. WordNet Library API is used to access the WordNet dictionary.
+Here, I have tried to implement a Question Answering (QA) system using NLP features and techniques for the 
+following type: 
+1. WHO questions 
+2. WHEN questions
+3. WHERE questions 
 
 ### Prerequisites and Installation
 
