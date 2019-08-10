@@ -32,6 +32,13 @@ For Mac/Unix: Canopy is not required, download packages using pip.
 ```
 sudo pip install -U nltk
 ```
+3. Packages – spacy
+
+For Windows/Mac/Unix:
+
+```
+sudo pip install -U spacy
+```
 
 These commands assume you already have pip installed.
 
