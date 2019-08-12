@@ -47,24 +47,12 @@ These commands assume you already have pip installed.
 Sample Commands: 
 
 ```
-$$ python word_sense_disambiguation.py --word "bank" --sentence "I need to withdraw money from bank"
+$$ python3 main.py
 ```
-
-```
-$$ python word_sense_disambiguation.py --word "bank" --sentence "The bank can guarantee deposits will eventually cover future tution adjustable-rate mortgage securities"
-```
-
-Following are the input functions:
-
---word : The word that needs to be disambiguated.
-
---sentence : Full sentence with word that will be disambiguated.
-
-Extra tips : If you want the output of above program to be printed in file, add ‘>> output.txt’ at end of above code.
+This code assumes the questions for the bot are in questions.txt. The dataset for this bot is provided in dataset folder. 
 
 ## Results
-The output shows the word overlap for each sense of the word bank in WordNet and the final chosen sense.
-Results are documented in the file output.txt.
+The program writes the answers in file called - data.txt. Example answers to questions from questions.txt is present in data.txt file.
 
 ## Authors
 
